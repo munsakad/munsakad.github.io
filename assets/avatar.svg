@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="title desc">
+  <title id="title">DM Monogram</title>
+  <desc id="desc">Gradient monogram avatar with the initials DM</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="55%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="32" fill="url(#g)" />
+  <text x="50%" y="53%" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-weight="700"
+        font-size="86" fill="#ffffff">DM</text>
+</svg>

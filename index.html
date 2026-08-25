@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dingani Munsaka — Software &amp; Hardware Engineer</title>
+  <meta name="description" content="Portfolio of Dingani Munsaka, a Computer Science &amp; Engineering Technologies student at Berea College building full-stack software and exploring hardware engineering." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#top" class="brand">DM<span class="brand-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-shape hero-shape-1"></div>
+      <div class="hero-shape hero-shape-2"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1 class="hero-title">Dingani Munsaka</h1>
+        <p class="hero-subtitle">Software &amp; Hardware Engineer <span class="dot-sep">&middot;</span> CS + Engineering Technologies @ Berea College</p>
+        <p class="hero-blurb">
+          I build full-stack web applications and I'm drawn to where software meets hardware —
+          from distributed systems to PCB-level electronics. Currently a Web Application Engineer
+          Intern with Berea's Student Software Development Team and a Teaching Assistant for
+          Electricity &amp; Electronics.
+        </p>
+        <div class="hero-actions">
+          <a href="assets/resume.pdf" class="btn btn-primary" download>📄 Resume</a>
+          <a href="https://github.com/munsakad" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/dingani-munsaka" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <img src="assets/avatar.svg" alt="Monogram avatar for Dingani Munsaka" class="avatar-float" width="180" height="180" />
+        <div class="about-text">
+          <p>
+            I'm a Computer Science &amp; Engineering Technologies student at
+            <strong>Berea College</strong> (Class of 2028), maintaining a 3.90 GPA on Berea's
+            tuition-free Full-Ride Promise Scholarship. I like building things end-to-end —
+            designing the database, writing the backend, and shipping a frontend people actually
+            use — and I'm increasingly interested in roles that combine
+            <strong>software and hardware engineering</strong>.
+          </p>
+          <p>
+            Outside of coursework, I work as a <strong>Web Application Engineer Intern</strong>
+            with Berea's Student Software Development Team (SSDT), building full-stack
+            applications used by staff and students across campus, and I serve as a
+            <strong>Teaching Assistant for Electricity &amp; Electronics</strong>, helping fellow
+            students work through circuits and digital logic.
+          </p>
+          <ul class="about-facts">
+            <li>🎓 B.A. Computer Science &amp; B.S. Engineering Technologies, Berea College</li>
+            <li>📍 Berea, KY</li>
+            <li>🧪 Interests: distributed systems, AI-assisted tooling, embedded &amp; hardware engineering</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-alt" id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-marker" style="--accent: var(--accent-1)"></div>
+          <div class="timeline-card">
+            <div class="timeline-head">
+              <h3>Teaching Assistant, Electricity &amp; Electronics</h3>
+              <span class="timeline-date">Current</span>
+            </div>
+            <p class="timeline-org">Berea College</p>
+            <p>Supporting students working through circuits, digital logic, and hands-on electronics labs.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker" style="--accent: var(--accent-2)"></div>
+          <div class="timeline-card">
+            <div class="timeline-head">
+              <h3>Web Application Engineer Intern</h3>
+              <span class="timeline-date">Jun 2026 – Aug 2026</span>
+            </div>
+            <p class="timeline-org">Berea College · Student Software Development Team (SSDT)</p>
+            <p>
+              Re-architected the Labor Status Form portal (Python, JavaScript, MySQL) into a
+              unified per-department allocation workflow used by 1,200+ students and 500+
+              supervisors across 200+ departments. Containerized the full stack with Docker,
+              designed the normalized MySQL schema, and fixed responsive layout defects on the
+              CELTS community-service platform (500+ users).
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker" style="--accent: var(--accent-3)"></div>
+          <div class="timeline-card">
+            <div class="timeline-head">
+              <h3>Full Stack Product Engineer Intern</h3>
+              <span class="timeline-date">Jun 2026 – Aug 2026</span>
+            </div>
+            <p class="timeline-org">Cardiora Software House · Remote</p>
+            <p>
+              Shipped three Next.js/MySQL production systems: a multi-school student platform
+              (2,500+ users), a role-based employee management &amp; analytics dashboard, and an
+              event platform with QR-code ticketing and payment integration. Built a portfolio
+              management platform and delivered every release through Git feature branches, peer
+              review, and two-week agile sprints.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker" style="--accent: var(--accent-1)"></div>
+          <div class="timeline-card">
+            <div class="timeline-head">
+              <h3>AI &amp; Full Stack Engineering Fellow</h3>
+              <span class="timeline-date">Jun 2025 – Aug 2025</span>
+            </div>
+            <p class="timeline-org">DevWeekends · Remote</p>
+            <p>
+              Built two production Next.js/React applications: an AI study platform generating
+              quizzes, flashcards, and personalized recommendations, and an AI resume builder with
+              ATS scoring, cover-letter generation, and PDF export. Engineered an AI coding
+              assistant serving PyTorch models to a React/Next.js frontend via REST API.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-card-top" style="--grad: var(--grad-1)"></div>
+          <h3>Distributed Cloud File Storage</h3>
+          <p>
+            A gRPC-based distributed storage service that chunks files into 1&nbsp;MiB pieces,
+            encrypts each with AES-256-GCM, and replicates across local and S3 targets with
+            automatic failover reads. Rollback-able versioning; deployed via Kubernetes manifests
+            and Terraform-provisioned AWS infrastructure.
+          </p>
+          <div class="tag-row">
+            <span class="tag">TypeScript</span><span class="tag">gRPC</span>
+            <span class="tag">Kubernetes</span><span class="tag">Terraform</span><span class="tag">AWS S3</span>
+          </div>
+          <a href="https://github.com/munsakad" class="card-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top" style="--grad: var(--grad-2)"></div>
+          <h3>Cortex: AI Business Intelligence Platform</h3>
+          <p>
+            An AI-assisted BI platform that profiles an uploaded CSV and uses the Gemini API to
+            generate dashboards, SQL queries, reports, and forecasts grounded in real computed
+            results, through a validated read-only SQL execution layer plus a NumPy-based
+            forecasting module.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">FastAPI</span>
+            <span class="tag">SQLite</span><span class="tag">Gemini API</span><span class="tag">React</span>
+          </div>
+          <a href="https://github.com/munsakad" class="card-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top" style="--grad: var(--grad-3)"></div>
+          <h3>Hardware Engineering Education Hub</h3>
+          <p>
+            A full-stack quiz platform with 100+ learning modules, auto-graded quizzes, and a CMS
+            that lets instructors publish new material without touching code. Normalized MySQL
+            schema with multi-topic filtering and per-user progress tracking.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">MySQL</span>
+            <span class="tag">JavaScript</span><span class="tag">HTML/CSS</span>
+          </div>
+          <a href="https://github.com/munsakad" class="card-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top" style="--grad: var(--grad-4)"></div>
+          <h3>DMHardware AI Chatbot</h3>
+          <p>
+            A Gemini-API chatbot grounded on 1,000+ custom-curated records covering electronics,
+            robotics, PCB design, and digital logic, with a Pandas/Scikit-Learn preprocessing and
+            retrieval pipeline that keeps answers anchored to the curated domain data.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">Gemini API</span>
+            <span class="tag">PyTorch</span><span class="tag">Scikit-Learn</span><span class="tag">Pandas</span>
+          </div>
+          <a href="https://github.com/munsakad" class="card-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="tag-row">
+            <span class="tag tag-skill">Python</span><span class="tag tag-skill">JavaScript</span>
+            <span class="tag tag-skill">TypeScript</span><span class="tag tag-skill">SQL</span>
+            <span class="tag tag-skill">HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks &amp; Libraries</h3>
+          <div class="tag-row">
+            <span class="tag tag-skill">React</span><span class="tag tag-skill">Next.js</span>
+            <span class="tag tag-skill">FastAPI</span><span class="tag tag-skill">PyTorch</span>
+            <span class="tag tag-skill">Scikit-Learn</span><span class="tag tag-skill">Pandas</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Infrastructure &amp; Data</h3>
+          <div class="tag-row">
+            <span class="tag tag-skill">Docker</span><span class="tag tag-skill">Kubernetes</span>
+            <span class="tag tag-skill">Terraform</span><span class="tag tag-skill">AWS S3</span>
+            <span class="tag tag-skill">MySQL</span><span class="tag tag-skill">SQLite</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <div class="tag-row">
+            <span class="tag tag-skill">Git</span><span class="tag tag-skill">Gemini API</span>
+            <span class="tag tag-skill">gRPC</span><span class="tag tag-skill">Linux (Ubuntu/WSL)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-card">
+        <div class="edu-head">
+          <h3>Berea College</h3>
+          <span class="timeline-date">Aug 2024 – Expected May 2028</span>
+        </div>
+        <p class="edu-degree">B.A. Computer Science &amp; B.S. Engineering Technologies</p>
+        <p>Berea, KY</p>
+        <ul class="about-facts">
+          <li>GPA: 3.90 / 4.00 · Dean's List (4×)</li>
+          <li>Full-Ride No Tuition Promise Scholarship ($263,000)</li>
+        </ul>
+        <p class="edu-coursework">
+          <strong>Relevant coursework:</strong> Data Structures &amp; Algorithms, Distributed
+          Systems, Operating Systems, Database Systems, Machine Learning, Deep Learning,
+          Web Technologies.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-alt" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-blurb">
+        I'm always happy to talk about software, hardware, or internship opportunities.
+        Reach out any of these ways:
+      </p>
+      <div class="contact-grid">
+        <a href="mailto:munsakad@berea.edu" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <span>munsakad@berea.edu</span>
+        </a>
+        <a href="https://github.com/munsakad" class="contact-card" target="_blank" rel="noopener">
+          <span class="contact-icon">🐙</span>
+          <span>github.com/munsakad</span>
+        </a>
+        <a href="https://linkedin.com/in/dingani-munsaka" class="contact-card" target="_blank" rel="noopener">
+          <span class="contact-icon">💼</span>
+          <span>linkedin.com/in/dingani-munsaka</span>
+        </a>
+        <a href="assets/resume.pdf" class="contact-card" download>
+          <span class="contact-icon">📄</span>
+          <span>Download Resume</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with HTML, CSS &amp; JavaScript, hosted on GitHub Pages.</p>
+    <p>&copy; <span id="year"></span> Dingani Munsaka</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
