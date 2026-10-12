@@ -431,6 +431,13 @@ section.section-alt > * {
 }
 .card-link:hover { text-decoration: underline; }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-top: auto;
+}
+
 /* ---------- Skills ---------- */
 .skills-grid {
   display: grid;
